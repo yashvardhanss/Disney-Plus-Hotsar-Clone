@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1150px;
+	margin:auto;
+}
+
+.footer-list{
+	list-style:none;
+	margin-bottom: -32px;
+	margin-left: -39%;
+}
+
+.footer{
+	background-color: #141b29;
+  padding: 20px 0px;
+}
+
+.footer-col{
+	width: 25%;
+  padding: 0 0px;
+	font-size: 18px;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+	display: inline-block;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 14px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.8);
+	transition: all 0.3s ease;
+}
+
+h3{
+	padding-top: 11px;
+  padding-right: 15%;
+	margin-left: -9.8%;
+	margin-bottom: 20%;
+  font-size: 12px;
+  line-height: 1.8;
+  color: #dadada;
+  font-weight: 400;
+}
+
+.footer-col ul li a:hover{
+	color: #1f80e0;
+	padding-left: 8px;
+}
+
+.connect{
+	color: #ffffff99;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 0px 0px 7px;
+	margin-left: 47%;
+	margin-top: -35%
+}
+
+.facebook{
+	margin-left: 47%;
+	width: 4%;
+}
+
+.twitter{
+	width: 4%;
+}
+
+.linkfbtw{
+	text-decoration: none;
+}
+
+.facebook:hover{
+	border-radius: 5px;
+	border: 1px solid lightskyblue;
+}
+
+.twitter:hover{
+	border-radius: 5px;
+	border: 1px solid lightskyblue;
+}
+
+.application-text{
+	color: #ffffff99;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 0px 0px 7px;
+	margin-left: 85%;
+	margin-top: -6.8%;
+}
+
+.social{
+	display: flex;
+	margin-left: 74.2%;
+}
+
+.googleplay{
+	height: 40px;
+	width: 147px;
+	margin-left: 85%;
+}
+
+.appstore{
+	height: 40px;
+	width: 147px;
+	margin-left: 89%;
+}
+
+.googleplay:hover{
+	border-radius: 5px;
+	border: 1px solid lightskyblue;
+}
+
+.appstore:hover{
+	border-radius: 5px;
+	border: 1px solid lightskyblue;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
